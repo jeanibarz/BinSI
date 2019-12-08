@@ -1,0 +1,4 @@
+# HRTF filtering
+Include: free-field-stereo-1.txt
+# Headphone compensation
+Include: ..\HpCF\etymotic-er4b\etymotic-er4b-hpcf.wav

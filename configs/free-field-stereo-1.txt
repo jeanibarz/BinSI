@@ -1,0 +1,11 @@
+# Left microphone was badly positioned when doing HRTF measurements.
+# As a result, I use only the right HRTF in this config.
+Preamp: -10 dB
+Convolution: ..\HRTF\BP-Freefield\system-compensation.wav
+Copy: FLS_LE=L FLS_RE=L FRS_LE=R FRS_RE=R
+Channel: FLS_LE FRS_RE
+Convolution: ..\HRTF\BP-Freefield\R-right.wav
+Channel: FLS_RE FRS_LE
+Convolution: ..\HRTF\BP-Freefield\R-left.wav
+Delay: 0.24 ms
+Copy: L=FLS_LE+FRS_LE R=FLS_RE+FRS_RE
