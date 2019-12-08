@@ -1,5 +1,5 @@
 # HRTF filtering
 Include: free-field-stereo-1.txt
 # Headphone compensation
-Preamp: -30 dB
+Preamp: -21.2 dB
 Convolution: ..\HpCF\etymotic-er4b\etymotic-er4b-hpcf.wav
