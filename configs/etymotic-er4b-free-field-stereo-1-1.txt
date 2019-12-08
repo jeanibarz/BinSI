@@ -3,3 +3,5 @@ Include: free-field-stereo-1.txt
 # Headphone compensation
 Preamp: -21.2 dB
 Convolution: ..\HpCF\etymotic-er4b\etymotic-er4b-hpcf.wav
+# Earphones to ear coupling compensation (subjective setting)
+Filter: ON LS 10 dB Fc 400 Hz Gain -12 dB
