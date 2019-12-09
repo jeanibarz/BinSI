@@ -1,7 +1,11 @@
 # HRTF filtering
 Include: free-field-stereo-1.txt
 # Headphone compensation
-Preamp: -21.2 dB
+Preamp: -9.3 dB
 Convolution: ..\HpCF\etymotic-er4b\etymotic-er4b-hpcf.wav
 # Earphones to ear coupling compensation (subjective setting)
 Filter: ON LS 10 dB Fc 400 Hz Gain -12 dB
+Filter: ON PK Fc 6000 Hz Gain 6 dB Q 10
+Filter: ON PK Fc 8000 Hz Gain -10 dB Q 10
+Filter: ON PK Fc 10000 Hz Gain 6 dB Q 10
+Filter: ON PK Fc 15500 Hz Gain -10 dB Q 10
